@@ -19,4 +19,7 @@ from .views import Heroes
 
 urlpatterns = [
     url(r'^/heroes$', Heroes.as_view(), name='Heroes'),
+    url(r'^/hero/cloud$', Cloud.as_view(), name='Cloud'),
+    url(r'^/hero/sunflowey$', Sunflowey.as_view(), name='Sunflowey'),
+    url(r'^/hero/jester$', Jester.as_view(), name='Jester'),
 ]
