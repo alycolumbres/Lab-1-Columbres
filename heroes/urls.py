@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 
 from .views import Heroes
+from .views import Cloud
+from .views import Sunflowey
+from .views import Jester
 
 urlpatterns = [
     url(r'^/heroes$', Heroes.as_view(), name='Heroes'),
